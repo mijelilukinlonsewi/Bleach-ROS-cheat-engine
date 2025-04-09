@@ -1,0 +1,17 @@
+Pour ne pas casser le cheat et la mémoire,
+
+Evitez a tout prix de jouer Ayon ou un personnage Géant et d'utilisé vous même le Kill move (R2),
+
+Cela risque de provoquer une erreur et de délocalisé la couche mémoire ou seront stocké les variable et adresses a un endroit différent d'ou seront innaccessible a l'outil ces dernières.
+
+Evitez en cas d'instabilitée d'une des variable pour les Konpaku de figer la valeur si l'adresses change et n'est plus correctement corrélez au Konpaku, cela risque de faire crasher votre jeux ou de délocaliser les adresses mémoire, car il y a parfois des adresses importante lié aux systèmes de combat ou de l'interface qui les remplaceront de façon courte.
+
+Evitez de modifier les Konpaku en mode entrainement tant que ceux ci sont définis comme infinis dans le menu de configuration de l'entrainement.
+
+Evitez de modifier les Konpaku quand le menu pause est affichée, les pointeurs désigne généralement d'autres adresses que celle des Konpaku a ce moment la, et risque d'altéré le fonctionement et le comportement des sous menu, créant des instabilité dans votre partie en cours ou des fuites de mémoire qui rempliront votre RAM ou votre disque dur/SSD.
+
+Quand un personnage s'éveil ou se reawakening, les konpaku reviendront a la valeur de vie normal la plus haute du personnage si la valeur est au dessus de ce palier normal, il n'y a aucune inquiétude a avoir, c'est tout a fait normal, il vous suffit de remettre les Konpaku dans l'état ou ils étaient avant l'éveil.
+
+Enfin, Evité le plus possible, de modifier les Konpaku ou les personnages quand vous n'êtes pas dans le menu de sélection des personnages ou en combat du mode offline, cela risque d'altéré une adresses importante, les Konpaku et les personnages n'ont pas leurs valeurs attribué en dehors de ces deux situation, il s'agit forcément de ??? ou d'une adresse toute autres.
+
+Pour le moment je n'ai pas encore testé les adresses dans d'autre mode que le mode entrainement et versus, je ne me porte pas responsable et ne peut pas me faire porter pour responsable du quelquonc problème en cas d'utilisation ou modification ou si vous gelé ces adresses dans quelquonc autre mode de jeux ou menu/sous-menu, je ne peux pas prédire le comportement ou fonctionnement de ces adresses dans toute autre situation.

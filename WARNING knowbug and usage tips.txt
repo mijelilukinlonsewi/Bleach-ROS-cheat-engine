@@ -1,0 +1,17 @@
+So as not to break cheat and memory,
+
+Avoid playing Ayon or a giant character and using the Kill Move (R2) at all costs,
+
+This may cause an error and delocalized the memory layer or will be stored the variables and addresses in a different place from where will be innaccessible to the these tools.
+
+Avoid in the event of instability of one of the variables for the Konpaku to freeze the value if the addresses changes and is no longer correctly correlated to the konpaku, this may make your games crash or relocate the memory addresses, because there are sometimes important addresses linked to the combat or interface systems which will replace them shortly.
+
+Avoid changing the konpaku in training mode as long as these are defined as infinite in the training configuration menu.
+
+Avoid modifying the konpaku when the break menu is displayed, pointers generally designates other addresses than that of the konpaku at this time, and risks altered the functioning and behavior of under menu, creating instability in your current part or memory leaks that will fill your RAM or your hard drive/SSD.
+
+When a character awakens or reawakening, the konpaku will come back to the normal life value of the highest of the character if the value is above this normal level, there is no concern to have, it is completely normal, you just have to put the konpaku back in the state where they were before the awakening.
+
+Finally, avoided as much as possible, to modify the konpaku or the characters when you are not in the character selection menu or in combat of the offline mode, it risks altered an important addresses, the konpaku and the characters do not have their values ??attributed outside these two situations, it is necessarily ??? or an all other address.
+
+For the moment I have not yet tested the addresses in other mode than the training mode and versus, I do not be responsible and cannot be carried responsible for someone problem in the event of use or modification or if you frozen these addresses in any other game mode or menu/submenu, I cannot predict the behavior or operation of these addresses in any other situation.
