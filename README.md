@@ -1,6 +1,6 @@
 # Bleach-ROS-cheat-engine
 
-This is a expérimental Advanced Cheat Engine Cheat Table for the Game Bleach Rebirth of souls in 1.4 Version
+This is a expérimental Advanced Cheat Engine Cheat Table for the Game Bleach Rebirth of souls in 1.04 Version
 
 This version is an alpha and can know some bugs with the automatic allocation of pointers addresses.
 
