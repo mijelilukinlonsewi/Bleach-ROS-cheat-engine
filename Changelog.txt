@@ -1,3 +1,6 @@
+devbuild 3 a1.2.3 Make filiation of Konpaku and Konpaku HUD for player 1 for made the 2 change is value at the same in the same time
+
+
 devbuild 3 a1.2.2 Retrieve HUD player 2 pointer, it's incorecte pointers
 
 devbuild 3 a1.2 adding player 1 and 2 HUD konpaku pointer
