@@ -59,6 +59,82 @@
       <Description>"Is a Free Software on copyleft usage right"</Description>
       <GroupHeader>1</GroupHeader>
     </CheatEntry>
+    <CheatEntry>
+      <ID>22</ID>
+      <Description>"Konpaku P1 HUD (Visual)"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1F410C14B80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>25</ID>
+      <Description>"Konpaku p1 ptr ?"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6048</Address>
+      <Offsets>
+        <Offset>A60</Offset>
+        <Offset>190</Offset>
+        <Offset>1A8</Offset>
+        <Offset>10</Offset>
+        <Offset>1B0</Offset>
+        <Offset>2D0</Offset>
+        <Offset>930</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"Konpaku p1 2"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>1D210E0CB80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>27</ID>
+      <Description>"No description"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>10</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>27B8DCB6DF0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"pointerscan result"</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6048</Address>
+      <Offsets>
+        <Offset>A60</Offset>
+        <Offset>190</Offset>
+        <Offset>1A8</Offset>
+        <Offset>10</Offset>
+        <Offset>1B0</Offset>
+        <Offset>2D0</Offset>
+        <Offset>930</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>29</ID>
+      <Description>"Konpaku p1 3"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>27BB4F98B80</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"HUD Konpaku p1 ptr "</Description>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6048</Address>
+      <Offsets>
+        <Offset>A60</Offset>
+        <Offset>190</Offset>
+        <Offset>1A8</Offset>
+        <Offset>10</Offset>
+        <Offset>1B0</Offset>
+        <Offset>2D0</Offset>
+        <Offset>930</Offset>
+      </Offsets>
+    </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
   <Structures StructVersion="2">
