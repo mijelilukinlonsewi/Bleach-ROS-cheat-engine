@@ -2,7 +2,7 @@ So as not to break cheat and memory,
 
 Avoid playing Ayon or a giant character and using the Kill Move (R2) at all costs,
 
-This may cause an error and delocalized the memory layer or will be stored the variables and addresses in a different place from where will be innaccessible to the these tools.
+This may cause an error and delocalized the memory layer or will be stored the variables and addresses in a different place from where will be innaccessible to these tools.
 
 Avoid in the event of instability of one of the variables for the Konpaku to freeze the value if the addresses changes and is no longer correctly correlated to the konpaku, this may make your games crash or relocate the memory addresses, because there are sometimes important addresses linked to the combat or interface systems which will replace them shortly.
 
