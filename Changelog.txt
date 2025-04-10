@@ -1,4 +1,5 @@
-devbuild 2 a1.2 adding changelog
+devbuild 2 a1.2 adding changelog, correcte english instruction mention of "will be innaccessible to the these tools." to correct "will be innaccessible to these tools."
+"
 
 devbuild a1.2 adding working table for HUD konpaku for player 1 pointer
 
