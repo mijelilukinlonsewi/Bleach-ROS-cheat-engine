@@ -1,0 +1,34 @@
+devbuild 2 a1.2 adding changelog
+
+devbuild a1.2 adding working table for HUD konpaku for player 1 pointer
+
+public release a1.1 adding french and english usage reccomandation in doc
+
+Release a1.1 Correction of mention Bleach 1.4 version to correct to 1.04 version in readme
+
+Pré a1.1 player 2 sélection pointer fixed
+
+Alpha 1.0.1 update readme.md
+
+Alpha 1.0 publy first version
+
+Alpha 1.0 pré 5 adding bleach CE ROS
+
+Alpha 1.0 init pré 4 init git dépot
+
+Alpha devbuild 1.0.9 Correct the konpaku for player 2 pointer pointed adresses with bad offsets
+
+Alpha devbuild 1.0.5 correct the konpaku for player 1 pointer pointed adresses with bad offsets
+
+Alpha devbuild 1.0.3 correct the player 2 pointer pointed adresses with bad offsets
+
+Alpha devbuild 1.0.2 prépatch 3 adding konpaku for plaeyr 2
+
+Alpha devbuild 1.0.2 adding konpaku  for player 1
+
+Alpha Devbuild 1.0 adding Player 1 and 2 char select pointer
+
+Pré-alpha devbuild 1.5 correction of some bugs with designated adresses by pointers
+
+pré-alpha devbuild 1.0 init project
+
