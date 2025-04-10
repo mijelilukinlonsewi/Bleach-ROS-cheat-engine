@@ -61,99 +61,32 @@
     </CheatEntry>
     <CheatEntry>
       <ID>22</ID>
-      <Description>"Konpaku P1 HUD (Visual)"</Description>
+      <Description>"HUD player 1 konpaku prt"</Description>
       <VariableType>4 Bytes</VariableType>
-      <Address>1F410C14B80</Address>
+      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6040</Address>
+      <Offsets>
+        <Offset>A60</Offset>
+        <Offset>190</Offset>
+        <Offset>1A8</Offset>
+        <Offset>10</Offset>
+        <Offset>1B0</Offset>
+        <Offset>2D0</Offset>
+        <Offset>9D0</Offset>
+      </Offsets>
     </CheatEntry>
     <CheatEntry>
       <ID>25</ID>
-      <Description>"Konpaku p1 ptr ?"</Description>
+      <Description>"HUD player 1 konpaku prt"</Description>
       <VariableType>4 Bytes</VariableType>
-      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6048</Address>
+      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6040</Address>
       <Offsets>
-        <Offset>A60</Offset>
+        <Offset>A64</Offset>
         <Offset>190</Offset>
         <Offset>1A8</Offset>
         <Offset>10</Offset>
         <Offset>1B0</Offset>
         <Offset>2D0</Offset>
-        <Offset>930</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>26</ID>
-      <Description>"Konpaku p1 2"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>1D210E0CB80</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>27</ID>
-      <Description>"No description"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>String</VariableType>
-      <Length>10</Length>
-      <Unicode>0</Unicode>
-      <CodePage>0</CodePage>
-      <ZeroTerminate>1</ZeroTerminate>
-      <Address>27B8DCB6DF0</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>28</ID>
-      <Description>"pointerscan result"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6048</Address>
-      <Offsets>
-        <Offset>A60</Offset>
-        <Offset>190</Offset>
-        <Offset>1A8</Offset>
-        <Offset>10</Offset>
-        <Offset>1B0</Offset>
-        <Offset>2D0</Offset>
-        <Offset>930</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>29</ID>
-      <Description>"Konpaku p1 3"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>27BB4F98B80</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>31</ID>
-      <Description>"HUD konpaku p1 ptr"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA6048</Address>
-      <Offsets>
-        <Offset>A60</Offset>
-        <Offset>190</Offset>
-        <Offset>1A8</Offset>
-        <Offset>10</Offset>
-        <Offset>1B0</Offset>
-        <Offset>2D0</Offset>
-        <Offset>930</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>32</ID>
-      <Description>"HUD Konpaku p2"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>14A90C2DE90</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>33</ID>
-      <Description>"HUD konpaku p2 ptr"</Description>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"BLEACH_Rebirth_of_Souls.exe"+01CA0F00</Address>
-      <Offsets>
-        <Offset>DC0</Offset>
-        <Offset>80</Offset>
-        <Offset>790</Offset>
-        <Offset>158</Offset>
-        <Offset>98</Offset>
-        <Offset>2E0</Offset>
-        <Offset>60</Offset>
+        <Offset>9D0</Offset>
       </Offsets>
     </CheatEntry>
   </CheatEntries>
@@ -1957,6 +1890,378 @@
         <Element Offset="4064" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="00000FE0" DisplayMethod="hexadecimal"/>
         <Element Offset="4076" Vartype="Float" Bytesize="4" OffsetHex="00000FEC" DisplayMethod="unsigned integer"/>
         <Element Offset="4080" Vartype="4 Bytes" Bytesize="4" RLECount="4" OffsetHex="00000FF0" DisplayMethod="hexadecimal"/>
+      </Elements>
+    </Structure>
+    <Structure Name="unnamed structure 5" AutoFill="0" AutoCreate="1" DefaultHex="0" AutoDestroy="0" DoNotSaveLocal="0" RLECompression="1" AutoCreateStructsize="4096">
+      <Elements>
+        <Element Offset="0" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000000" DisplayMethod="unsigned integer"/>
+        <Element Offset="8" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000008" Description="konpaku enlevé par ulti ?" DisplayMethod="unsigned integer"/>
+        <Element Offset="8" Vartype="4 Bytes" Bytesize="4" RLECount="26" OffsetHex="00000008" DisplayMethod="unsigned integer"/>
+        <Element Offset="112" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000070" DisplayMethod="unsigned integer"/>
+        <Element Offset="144" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000090" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="160" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000000A0" DisplayMethod="unsigned integer"/>
+        <Element Offset="168" Vartype="Pointer" Bytesize="8" OffsetHex="000000A8" DisplayMethod="unsigned integer"/>
+        <Element Offset="176" Vartype="Pointer" Bytesize="8" OffsetHex="000000B0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="184" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000000B8" DisplayMethod="unsigned integer"/>
+        <Element Offset="216" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000000D8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="232" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000000E8" DisplayMethod="unsigned integer"/>
+        <Element Offset="240" Vartype="Pointer" Bytesize="8" OffsetHex="000000F0" DisplayMethod="unsigned integer"/>
+        <Element Offset="248" Vartype="Pointer" Bytesize="8" OffsetHex="000000F8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="256" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000100" DisplayMethod="unsigned integer"/>
+        <Element Offset="288" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000120" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="304" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000130" DisplayMethod="unsigned integer"/>
+        <Element Offset="312" Vartype="Pointer" Bytesize="8" OffsetHex="00000138" DisplayMethod="unsigned integer"/>
+        <Element Offset="320" Vartype="Pointer" Bytesize="8" OffsetHex="00000140" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="328" Vartype="Byte" Bytesize="1" OffsetHex="00000148" DisplayMethod="unsigned integer"/>
+        <Element Offset="329" Vartype="String" Bytesize="14" OffsetHex="00000149" DisplayMethod="unsigned integer"/>
+        <Element Offset="343" Vartype="Byte" Bytesize="1" OffsetHex="00000157" DisplayMethod="unsigned integer"/>
+        <Element Offset="344" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000158" DisplayMethod="unsigned integer"/>
+        <Element Offset="352" Vartype="Double" Bytesize="8" OffsetHex="00000160" DisplayMethod="unsigned integer"/>
+        <Element Offset="360" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000168" DisplayMethod="unsigned integer"/>
+        <Element Offset="368" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000170" DisplayMethod="unsigned integer"/>
+        <Element Offset="400" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000190" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="416" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000001A0" DisplayMethod="unsigned integer"/>
+        <Element Offset="424" Vartype="Pointer" Bytesize="8" OffsetHex="000001A8" DisplayMethod="unsigned integer"/>
+        <Element Offset="432" Vartype="Pointer" Bytesize="8" OffsetHex="000001B0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="440" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000001B8" DisplayMethod="unsigned integer"/>
+        <Element Offset="472" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000001D8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="488" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000001E8" DisplayMethod="unsigned integer"/>
+        <Element Offset="496" Vartype="Pointer" Bytesize="8" OffsetHex="000001F0" DisplayMethod="unsigned integer"/>
+        <Element Offset="504" Vartype="Pointer" Bytesize="8" OffsetHex="000001F8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="512" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000200" DisplayMethod="unsigned integer"/>
+        <Element Offset="516" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000204" DisplayMethod="unsigned integer"/>
+        <Element Offset="520" Vartype="String" Bytesize="4" OffsetHex="00000208" DisplayMethod="unsigned integer"/>
+        <Element Offset="524" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000020C" DisplayMethod="unsigned integer"/>
+        <Element Offset="528" Vartype="String" Bytesize="4" OffsetHex="00000210" DisplayMethod="unsigned integer"/>
+        <Element Offset="532" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000214" DisplayMethod="unsigned integer"/>
+        <Element Offset="536" Vartype="String" Bytesize="4" OffsetHex="00000218" DisplayMethod="unsigned integer"/>
+        <Element Offset="540" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000021C" DisplayMethod="unsigned integer"/>
+        <Element Offset="544" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000220" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="560" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000230" DisplayMethod="unsigned integer"/>
+        <Element Offset="568" Vartype="Pointer" Bytesize="8" OffsetHex="00000238" DisplayMethod="unsigned integer"/>
+        <Element Offset="576" Vartype="Pointer" Bytesize="8" OffsetHex="00000240" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="584" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000248" DisplayMethod="unsigned integer"/>
+        <Element Offset="616" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000268" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="632" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000278" DisplayMethod="unsigned integer"/>
+        <Element Offset="640" Vartype="Pointer" Bytesize="8" OffsetHex="00000280" DisplayMethod="unsigned integer"/>
+        <Element Offset="648" Vartype="Pointer" Bytesize="8" OffsetHex="00000288" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="656" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000290" DisplayMethod="unsigned integer"/>
+        <Element Offset="660" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000294" DisplayMethod="unsigned integer"/>
+        <Element Offset="664" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000298" DisplayMethod="unsigned integer"/>
+        <Element Offset="668" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000029C" DisplayMethod="unsigned integer"/>
+        <Element Offset="672" Vartype="String" Bytesize="4" OffsetHex="000002A0" DisplayMethod="unsigned integer"/>
+        <Element Offset="676" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002A4" DisplayMethod="unsigned integer"/>
+        <Element Offset="680" Vartype="String" Bytesize="4" OffsetHex="000002A8" DisplayMethod="unsigned integer"/>
+        <Element Offset="684" Vartype="4 Bytes" Bytesize="4" OffsetHex="000002AC" DisplayMethod="unsigned integer"/>
+        <Element Offset="688" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000002B0" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="704" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000002C0" DisplayMethod="unsigned integer"/>
+        <Element Offset="712" Vartype="Pointer" Bytesize="8" OffsetHex="000002C8" DisplayMethod="unsigned integer"/>
+        <Element Offset="720" Vartype="Pointer" Bytesize="8" OffsetHex="000002D0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="728" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000002D8" DisplayMethod="unsigned integer"/>
+        <Element Offset="760" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000002F8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="776" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000308" DisplayMethod="unsigned integer"/>
+        <Element Offset="784" Vartype="Pointer" Bytesize="8" OffsetHex="00000310" DisplayMethod="unsigned integer"/>
+        <Element Offset="792" Vartype="Pointer" Bytesize="8" OffsetHex="00000318" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="800" Vartype="4 Bytes" Bytesize="4" RLECount="6" OffsetHex="00000320" DisplayMethod="unsigned integer"/>
+        <Element Offset="824" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000338" DisplayMethod="unsigned integer"/>
+        <Element Offset="856" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000358" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="872" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000368" DisplayMethod="unsigned integer"/>
+        <Element Offset="880" Vartype="Pointer" Bytesize="8" OffsetHex="00000370" DisplayMethod="unsigned integer"/>
+        <Element Offset="888" Vartype="Pointer" Bytesize="8" OffsetHex="00000378" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="896" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000380" DisplayMethod="unsigned integer"/>
+        <Element Offset="928" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000003A0" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="944" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000003B0" DisplayMethod="unsigned integer"/>
+        <Element Offset="952" Vartype="Pointer" Bytesize="8" OffsetHex="000003B8" DisplayMethod="unsigned integer"/>
+        <Element Offset="960" Vartype="Pointer" Bytesize="8" OffsetHex="000003C0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="968" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000003C8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1000" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000003E8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1016" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000003F8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1024" Vartype="Pointer" Bytesize="8" OffsetHex="00000400" DisplayMethod="unsigned integer"/>
+        <Element Offset="1032" Vartype="Pointer" Bytesize="8" OffsetHex="00000408" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1040" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000410" DisplayMethod="unsigned integer"/>
+        <Element Offset="1072" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000430" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1088" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000440" DisplayMethod="unsigned integer"/>
+        <Element Offset="1096" Vartype="Pointer" Bytesize="8" OffsetHex="00000448" DisplayMethod="unsigned integer"/>
+        <Element Offset="1104" Vartype="Pointer" Bytesize="8" OffsetHex="00000450" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1112" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000458" DisplayMethod="unsigned integer"/>
+        <Element Offset="1144" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000478" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1160" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000488" DisplayMethod="unsigned integer"/>
+        <Element Offset="1168" Vartype="Pointer" Bytesize="8" OffsetHex="00000490" DisplayMethod="unsigned integer"/>
+        <Element Offset="1176" Vartype="Pointer" Bytesize="8" OffsetHex="00000498" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1184" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000004A0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1216" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000004C0" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1232" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000004D0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1240" Vartype="Pointer" Bytesize="8" OffsetHex="000004D8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1248" Vartype="Pointer" Bytesize="8" OffsetHex="000004E0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1256" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000004E8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1260" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004EC" DisplayMethod="unsigned integer"/>
+        <Element Offset="1264" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000004F0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1268" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004F4" DisplayMethod="unsigned integer"/>
+        <Element Offset="1272" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="000004F8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1276" Vartype="4 Bytes" Bytesize="4" OffsetHex="000004FC" DisplayMethod="unsigned integer"/>
+        <Element Offset="1280" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000500" DisplayMethod="unsigned integer"/>
+        <Element Offset="1284" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000504" DisplayMethod="unsigned integer"/>
+        <Element Offset="1288" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000508" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1304" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000518" DisplayMethod="unsigned integer"/>
+        <Element Offset="1312" Vartype="Pointer" Bytesize="8" OffsetHex="00000520" DisplayMethod="unsigned integer"/>
+        <Element Offset="1320" Vartype="Pointer" Bytesize="8" OffsetHex="00000528" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1328" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000530" DisplayMethod="unsigned integer"/>
+        <Element Offset="1332" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000534" DisplayMethod="unsigned integer"/>
+        <Element Offset="1336" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000538" DisplayMethod="unsigned integer"/>
+        <Element Offset="1340" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000053C" DisplayMethod="unsigned integer"/>
+        <Element Offset="1344" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000540" DisplayMethod="unsigned integer"/>
+        <Element Offset="1348" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000544" DisplayMethod="unsigned integer"/>
+        <Element Offset="1352" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000548" DisplayMethod="unsigned integer"/>
+        <Element Offset="1356" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000054C" DisplayMethod="unsigned integer"/>
+        <Element Offset="1360" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000550" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1376" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000560" DisplayMethod="unsigned integer"/>
+        <Element Offset="1384" Vartype="Pointer" Bytesize="8" OffsetHex="00000568" DisplayMethod="unsigned integer"/>
+        <Element Offset="1392" Vartype="Pointer" Bytesize="8" OffsetHex="00000570" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1400" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000578" DisplayMethod="unsigned integer"/>
+        <Element Offset="1432" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000598" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1448" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000005A8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1456" Vartype="Pointer" Bytesize="8" OffsetHex="000005B0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1464" Vartype="Pointer" Bytesize="8" OffsetHex="000005B8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1472" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000005C0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1504" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000005E0" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1520" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000005F0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1528" Vartype="Pointer" Bytesize="8" OffsetHex="000005F8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1536" Vartype="Pointer" Bytesize="8" OffsetHex="00000600" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1544" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000608" DisplayMethod="unsigned integer"/>
+        <Element Offset="1576" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000628" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1592" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000638" DisplayMethod="unsigned integer"/>
+        <Element Offset="1600" Vartype="Pointer" Bytesize="8" OffsetHex="00000640" DisplayMethod="unsigned integer"/>
+        <Element Offset="1608" Vartype="Pointer" Bytesize="8" OffsetHex="00000648" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1616" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000650" DisplayMethod="unsigned integer"/>
+        <Element Offset="1648" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000670" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1664" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000680" DisplayMethod="unsigned integer"/>
+        <Element Offset="1672" Vartype="Pointer" Bytesize="8" OffsetHex="00000688" DisplayMethod="unsigned integer"/>
+        <Element Offset="1680" Vartype="Pointer" Bytesize="8" OffsetHex="00000690" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1688" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000698" DisplayMethod="unsigned integer"/>
+        <Element Offset="1720" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000006B8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1736" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000006C8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1744" Vartype="Pointer" Bytesize="8" OffsetHex="000006D0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1752" Vartype="Pointer" Bytesize="8" OffsetHex="000006D8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1760" Vartype="Float" Bytesize="4" OffsetHex="000006E0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1764" Vartype="4 Bytes" Bytesize="4" OffsetHex="000006E4" DisplayMethod="unsigned integer"/>
+        <Element Offset="1768" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000006E8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1800" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000708" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1816" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000718" DisplayMethod="unsigned integer"/>
+        <Element Offset="1824" Vartype="Pointer" Bytesize="8" OffsetHex="00000720" DisplayMethod="unsigned integer"/>
+        <Element Offset="1832" Vartype="Pointer" Bytesize="8" OffsetHex="00000728" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1840" Vartype="Float" Bytesize="4" OffsetHex="00000730" DisplayMethod="unsigned integer"/>
+        <Element Offset="1844" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000734" DisplayMethod="unsigned integer"/>
+        <Element Offset="1848" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000738" DisplayMethod="unsigned integer"/>
+        <Element Offset="1852" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000073C" DisplayMethod="unsigned integer"/>
+        <Element Offset="1856" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000740" DisplayMethod="unsigned integer"/>
+        <Element Offset="1860" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000744" DisplayMethod="unsigned integer"/>
+        <Element Offset="1864" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000748" DisplayMethod="unsigned integer"/>
+        <Element Offset="1868" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000074C" DisplayMethod="unsigned integer"/>
+        <Element Offset="1872" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000750" DisplayMethod="unsigned integer"/>
+        <Element Offset="1876" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000754" DisplayMethod="unsigned integer"/>
+        <Element Offset="1880" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000758" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1896" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000768" DisplayMethod="unsigned integer"/>
+        <Element Offset="1904" Vartype="Pointer" Bytesize="8" OffsetHex="00000770" DisplayMethod="unsigned integer"/>
+        <Element Offset="1912" Vartype="Pointer" Bytesize="8" OffsetHex="00000778" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="1920" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000780" DisplayMethod="unsigned integer"/>
+        <Element Offset="1928" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000788" DisplayMethod="unsigned integer"/>
+        <Element Offset="1960" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000007A8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="1976" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000007B8" DisplayMethod="unsigned integer"/>
+        <Element Offset="1984" Vartype="Pointer" Bytesize="8" OffsetHex="000007C0" DisplayMethod="unsigned integer"/>
+        <Element Offset="1992" Vartype="Pointer" Bytesize="8" OffsetHex="000007C8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2000" Vartype="Float" Bytesize="4" OffsetHex="000007D0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2004" Vartype="4 Bytes" Bytesize="4" OffsetHex="000007D4" DisplayMethod="unsigned integer"/>
+        <Element Offset="2008" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000007D8" DisplayMethod="unsigned integer"/>
+        <Element Offset="2040" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000007F8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="2056" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000808" DisplayMethod="unsigned integer"/>
+        <Element Offset="2064" Vartype="Pointer" Bytesize="8" OffsetHex="00000810" DisplayMethod="unsigned integer"/>
+        <Element Offset="2072" Vartype="Pointer" Bytesize="8" OffsetHex="00000818" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2080" Vartype="Float" Bytesize="4" OffsetHex="00000820" DisplayMethod="unsigned integer"/>
+        <Element Offset="2084" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000824" DisplayMethod="unsigned integer"/>
+        <Element Offset="2088" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000828" DisplayMethod="unsigned integer"/>
+        <Element Offset="2092" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000082C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2096" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000830" DisplayMethod="unsigned integer"/>
+        <Element Offset="2100" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000834" DisplayMethod="unsigned integer"/>
+        <Element Offset="2104" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000838" DisplayMethod="unsigned integer"/>
+        <Element Offset="2108" Vartype="4 Bytes" Bytesize="4" OffsetHex="0000083C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2112" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000840" DisplayMethod="unsigned integer"/>
+        <Element Offset="2116" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000844" DisplayMethod="unsigned integer"/>
+        <Element Offset="2120" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000848" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="2136" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000858" DisplayMethod="unsigned integer"/>
+        <Element Offset="2144" Vartype="Pointer" Bytesize="8" OffsetHex="00000860" DisplayMethod="unsigned integer"/>
+        <Element Offset="2152" Vartype="Pointer" Bytesize="8" OffsetHex="00000868" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2160" Vartype="Float" Bytesize="4" OffsetHex="00000870" DisplayMethod="unsigned integer"/>
+        <Element Offset="2164" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="00000874" DisplayMethod="unsigned integer"/>
+        <Element Offset="2176" Vartype="Byte" Bytesize="1" OffsetHex="00000880" DisplayMethod="unsigned integer"/>
+        <Element Offset="2177" Vartype="String" Bytesize="11" OffsetHex="00000881" DisplayMethod="unsigned integer"/>
+        <Element Offset="2188" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="0000088C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2200" Vartype="Byte" Bytesize="1" OffsetHex="00000898" DisplayMethod="unsigned integer"/>
+        <Element Offset="2201" Vartype="String" Bytesize="11" OffsetHex="00000899" DisplayMethod="unsigned integer"/>
+        <Element Offset="2212" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="000008A4" DisplayMethod="unsigned integer"/>
+        <Element Offset="2224" Vartype="Byte" Bytesize="1" OffsetHex="000008B0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2225" Vartype="String" Bytesize="9" OffsetHex="000008B1" DisplayMethod="unsigned integer"/>
+        <Element Offset="2234" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000008BA" DisplayMethod="unsigned integer"/>
+        <Element Offset="2236" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="000008BC" DisplayMethod="unsigned integer"/>
+        <Element Offset="2248" Vartype="Byte" Bytesize="1" OffsetHex="000008C8" DisplayMethod="unsigned integer"/>
+        <Element Offset="2249" Vartype="String" Bytesize="11" OffsetHex="000008C9" DisplayMethod="unsigned integer"/>
+        <Element Offset="2260" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="000008D4" DisplayMethod="unsigned integer"/>
+        <Element Offset="2272" Vartype="Byte" Bytesize="1" OffsetHex="000008E0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2273" Vartype="String" Bytesize="9" OffsetHex="000008E1" DisplayMethod="unsigned integer"/>
+        <Element Offset="2282" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="000008EA" DisplayMethod="unsigned integer"/>
+        <Element Offset="2284" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="000008EC" DisplayMethod="unsigned integer"/>
+        <Element Offset="2296" Vartype="Byte" Bytesize="1" OffsetHex="000008F8" DisplayMethod="unsigned integer"/>
+        <Element Offset="2297" Vartype="String" Bytesize="11" OffsetHex="000008F9" DisplayMethod="unsigned integer"/>
+        <Element Offset="2308" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="00000904" DisplayMethod="unsigned integer"/>
+        <Element Offset="2320" Vartype="Byte" Bytesize="1" OffsetHex="00000910" DisplayMethod="unsigned integer"/>
+        <Element Offset="2321" Vartype="String" Bytesize="9" OffsetHex="00000911" DisplayMethod="unsigned integer"/>
+        <Element Offset="2330" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000091A" DisplayMethod="unsigned integer"/>
+        <Element Offset="2332" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="0000091C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2344" Vartype="Byte" Bytesize="1" OffsetHex="00000928" DisplayMethod="unsigned integer"/>
+        <Element Offset="2345" Vartype="String" Bytesize="11" OffsetHex="00000929" DisplayMethod="unsigned integer"/>
+        <Element Offset="2356" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="00000934" DisplayMethod="unsigned integer"/>
+        <Element Offset="2368" Vartype="Byte" Bytesize="1" OffsetHex="00000940" DisplayMethod="unsigned integer"/>
+        <Element Offset="2369" Vartype="String" Bytesize="9" OffsetHex="00000941" DisplayMethod="unsigned integer"/>
+        <Element Offset="2378" Vartype="Byte" Bytesize="1" RLECount="2" OffsetHex="0000094A" DisplayMethod="unsigned integer"/>
+        <Element Offset="2380" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="0000094C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2392" Vartype="Byte" Bytesize="1" OffsetHex="00000958" DisplayMethod="unsigned integer"/>
+        <Element Offset="2393" Vartype="String" Bytesize="11" OffsetHex="00000959" DisplayMethod="unsigned integer"/>
+        <Element Offset="2404" Vartype="4 Bytes" Bytesize="4" RLECount="7" OffsetHex="00000964" DisplayMethod="unsigned integer"/>
+        <Element Offset="2432" Vartype="Float" Bytesize="4" OffsetHex="00000980" DisplayMethod="unsigned integer"/>
+        <Element Offset="2436" Vartype="4 Bytes" Bytesize="4" RLECount="3" OffsetHex="00000984" DisplayMethod="unsigned integer"/>
+        <Element Offset="2448" Vartype="Pointer" Bytesize="8" RLECount="7" OffsetHex="00000990" DisplayMethod="unsigned integer"/>
+        <Element Offset="2504" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="000009C8" Description="Pointer to instance of OPlayableBase" DisplayMethod="unsigned integer"/>
+        <Element Offset="2520" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="000009D8" DisplayMethod="unsigned integer"/>
+        <Element Offset="2528" Vartype="Pointer" Bytesize="8" OffsetHex="000009E0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2536" Vartype="Pointer" Bytesize="8" OffsetHex="000009E8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2544" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="000009F0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2576" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000A10" Description="Pointer to instance of TamEngine::CActCombo" DisplayMethod="unsigned integer"/>
+        <Element Offset="2592" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000A20" DisplayMethod="unsigned integer"/>
+        <Element Offset="2600" Vartype="Pointer" Bytesize="8" OffsetHex="00000A28" DisplayMethod="unsigned integer"/>
+        <Element Offset="2608" Vartype="Pointer" Bytesize="8" OffsetHex="00000A30" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2616" Vartype="Double" Bytesize="8" OffsetHex="00000A38" DisplayMethod="unsigned integer"/>
+        <Element Offset="2624" Vartype="4 Bytes" Bytesize="4" RLECount="4" OffsetHex="00000A40" DisplayMethod="unsigned integer"/>
+        <Element Offset="2640" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000A50" DisplayMethod="unsigned integer"/>
+        <Element Offset="2644" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A54" DisplayMethod="unsigned integer"/>
+        <Element Offset="2648" Vartype="String" Bytesize="4" OffsetHex="00000A58" DisplayMethod="unsigned integer"/>
+        <Element Offset="2652" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A5C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2656" Vartype="String" Bytesize="4" OffsetHex="00000A60" DisplayMethod="unsigned integer"/>
+        <Element Offset="2660" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A64" DisplayMethod="unsigned integer"/>
+        <Element Offset="2664" Vartype="String" Bytesize="4" OffsetHex="00000A68" DisplayMethod="unsigned integer"/>
+        <Element Offset="2668" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A6C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2672" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000A70" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="2688" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000A80" DisplayMethod="unsigned integer"/>
+        <Element Offset="2696" Vartype="Pointer" Bytesize="8" OffsetHex="00000A88" DisplayMethod="unsigned integer"/>
+        <Element Offset="2704" Vartype="Pointer" Bytesize="8" OffsetHex="00000A90" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2712" Vartype="String" Bytesize="4" OffsetHex="00000A98" DisplayMethod="unsigned integer"/>
+        <Element Offset="2716" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000A9C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2720" Vartype="String" Bytesize="4" OffsetHex="00000AA0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2724" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AA4" DisplayMethod="unsigned integer"/>
+        <Element Offset="2728" Vartype="String" Bytesize="4" OffsetHex="00000AA8" DisplayMethod="unsigned integer"/>
+        <Element Offset="2732" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AAC" DisplayMethod="unsigned integer"/>
+        <Element Offset="2736" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000AB0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2740" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000AB4" DisplayMethod="unsigned integer"/>
+        <Element Offset="2744" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000AB8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="2760" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000AC8" DisplayMethod="unsigned integer"/>
+        <Element Offset="2768" Vartype="Pointer" Bytesize="8" OffsetHex="00000AD0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2776" Vartype="Pointer" Bytesize="8" OffsetHex="00000AD8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2784" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000AE0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2816" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000B00" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="2832" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000B10" DisplayMethod="unsigned integer"/>
+        <Element Offset="2840" Vartype="Pointer" Bytesize="8" OffsetHex="00000B18" DisplayMethod="unsigned integer"/>
+        <Element Offset="2848" Vartype="Pointer" Bytesize="8" OffsetHex="00000B20" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2856" Vartype="String" Bytesize="4" OffsetHex="00000B28" DisplayMethod="unsigned integer"/>
+        <Element Offset="2860" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B2C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2864" Vartype="String" Bytesize="4" OffsetHex="00000B30" DisplayMethod="unsigned integer"/>
+        <Element Offset="2868" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B34" DisplayMethod="unsigned integer"/>
+        <Element Offset="2872" Vartype="String" Bytesize="4" OffsetHex="00000B38" DisplayMethod="unsigned integer"/>
+        <Element Offset="2876" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B3C" DisplayMethod="unsigned integer"/>
+        <Element Offset="2880" Vartype="Byte" Bytesize="1" RLECount="4" OffsetHex="00000B40" DisplayMethod="unsigned integer"/>
+        <Element Offset="2884" Vartype="4 Bytes" Bytesize="4" OffsetHex="00000B44" DisplayMethod="unsigned integer"/>
+        <Element Offset="2888" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000B48" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="2904" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000B58" DisplayMethod="unsigned integer"/>
+        <Element Offset="2912" Vartype="Pointer" Bytesize="8" OffsetHex="00000B60" DisplayMethod="unsigned integer"/>
+        <Element Offset="2920" Vartype="Pointer" Bytesize="8" OffsetHex="00000B68" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="2928" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000B70" DisplayMethod="unsigned integer"/>
+        <Element Offset="2960" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000B90" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="2976" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000BA0" DisplayMethod="unsigned integer"/>
+        <Element Offset="2984" Vartype="Pointer" Bytesize="8" OffsetHex="00000BA8" DisplayMethod="unsigned integer"/>
+        <Element Offset="2992" Vartype="Pointer" Bytesize="8" OffsetHex="00000BB0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3000" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000BB8" DisplayMethod="unsigned integer"/>
+        <Element Offset="3032" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000BD8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3048" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000BE8" DisplayMethod="unsigned integer"/>
+        <Element Offset="3056" Vartype="Pointer" Bytesize="8" OffsetHex="00000BF0" DisplayMethod="unsigned integer"/>
+        <Element Offset="3064" Vartype="Pointer" Bytesize="8" OffsetHex="00000BF8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3072" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000C00" DisplayMethod="unsigned integer"/>
+        <Element Offset="3104" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000C20" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3120" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000C30" DisplayMethod="unsigned integer"/>
+        <Element Offset="3128" Vartype="Pointer" Bytesize="8" OffsetHex="00000C38" DisplayMethod="unsigned integer"/>
+        <Element Offset="3136" Vartype="Pointer" Bytesize="8" OffsetHex="00000C40" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3144" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000C48" DisplayMethod="unsigned integer"/>
+        <Element Offset="3176" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000C68" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3192" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000C78" DisplayMethod="unsigned integer"/>
+        <Element Offset="3200" Vartype="Pointer" Bytesize="8" OffsetHex="00000C80" DisplayMethod="unsigned integer"/>
+        <Element Offset="3208" Vartype="Pointer" Bytesize="8" OffsetHex="00000C88" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3216" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000C90" DisplayMethod="unsigned integer"/>
+        <Element Offset="3248" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000CB0" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3264" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000CC0" DisplayMethod="unsigned integer"/>
+        <Element Offset="3272" Vartype="Pointer" Bytesize="8" OffsetHex="00000CC8" DisplayMethod="unsigned integer"/>
+        <Element Offset="3280" Vartype="Pointer" Bytesize="8" OffsetHex="00000CD0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3288" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000CD8" DisplayMethod="unsigned integer"/>
+        <Element Offset="3320" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000CF8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3336" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000D08" DisplayMethod="unsigned integer"/>
+        <Element Offset="3344" Vartype="Pointer" Bytesize="8" OffsetHex="00000D10" DisplayMethod="unsigned integer"/>
+        <Element Offset="3352" Vartype="Pointer" Bytesize="8" OffsetHex="00000D18" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3360" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000D20" DisplayMethod="unsigned integer"/>
+        <Element Offset="3392" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000D40" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3408" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000D50" DisplayMethod="unsigned integer"/>
+        <Element Offset="3416" Vartype="Pointer" Bytesize="8" OffsetHex="00000D58" DisplayMethod="unsigned integer"/>
+        <Element Offset="3424" Vartype="Pointer" Bytesize="8" OffsetHex="00000D60" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3432" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000D68" DisplayMethod="unsigned integer"/>
+        <Element Offset="3464" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000D88" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3480" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000D98" DisplayMethod="unsigned integer"/>
+        <Element Offset="3488" Vartype="Pointer" Bytesize="8" OffsetHex="00000DA0" DisplayMethod="unsigned integer"/>
+        <Element Offset="3496" Vartype="Pointer" Bytesize="8" OffsetHex="00000DA8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3504" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000DB0" DisplayMethod="unsigned integer"/>
+        <Element Offset="3536" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000DD0" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3552" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000DE0" DisplayMethod="unsigned integer"/>
+        <Element Offset="3560" Vartype="Pointer" Bytesize="8" OffsetHex="00000DE8" DisplayMethod="unsigned integer"/>
+        <Element Offset="3568" Vartype="Pointer" Bytesize="8" OffsetHex="00000DF0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3576" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000DF8" DisplayMethod="unsigned integer"/>
+        <Element Offset="3608" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000E18" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3624" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000E28" DisplayMethod="unsigned integer"/>
+        <Element Offset="3632" Vartype="Pointer" Bytesize="8" OffsetHex="00000E30" DisplayMethod="unsigned integer"/>
+        <Element Offset="3640" Vartype="Pointer" Bytesize="8" OffsetHex="00000E38" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3648" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000E40" DisplayMethod="unsigned integer"/>
+        <Element Offset="3680" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000E60" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3696" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000E70" DisplayMethod="unsigned integer"/>
+        <Element Offset="3704" Vartype="Pointer" Bytesize="8" OffsetHex="00000E78" DisplayMethod="unsigned integer"/>
+        <Element Offset="3712" Vartype="Pointer" Bytesize="8" OffsetHex="00000E80" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3720" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000E88" DisplayMethod="unsigned integer"/>
+        <Element Offset="3752" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000EA8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3768" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000EB8" DisplayMethod="unsigned integer"/>
+        <Element Offset="3776" Vartype="Pointer" Bytesize="8" OffsetHex="00000EC0" DisplayMethod="unsigned integer"/>
+        <Element Offset="3784" Vartype="Pointer" Bytesize="8" OffsetHex="00000EC8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3792" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000ED0" DisplayMethod="unsigned integer"/>
+        <Element Offset="3824" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000EF0" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3840" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000F00" DisplayMethod="unsigned integer"/>
+        <Element Offset="3848" Vartype="Pointer" Bytesize="8" OffsetHex="00000F08" DisplayMethod="unsigned integer"/>
+        <Element Offset="3856" Vartype="Pointer" Bytesize="8" OffsetHex="00000F10" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3864" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000F18" DisplayMethod="unsigned integer"/>
+        <Element Offset="3896" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000F38" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3912" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000F48" DisplayMethod="unsigned integer"/>
+        <Element Offset="3920" Vartype="Pointer" Bytesize="8" OffsetHex="00000F50" DisplayMethod="unsigned integer"/>
+        <Element Offset="3928" Vartype="Pointer" Bytesize="8" OffsetHex="00000F58" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="3936" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000F60" DisplayMethod="unsigned integer"/>
+        <Element Offset="3968" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000F80" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="3984" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000F90" DisplayMethod="unsigned integer"/>
+        <Element Offset="3992" Vartype="Pointer" Bytesize="8" OffsetHex="00000F98" DisplayMethod="unsigned integer"/>
+        <Element Offset="4000" Vartype="Pointer" Bytesize="8" OffsetHex="00000FA0" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="4008" Vartype="Pointer" Bytesize="8" RLECount="4" OffsetHex="00000FA8" DisplayMethod="unsigned integer"/>
+        <Element Offset="4040" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000FC8" Description="Pointer to instance of CScriptUi" DisplayMethod="unsigned integer"/>
+        <Element Offset="4056" Vartype="4 Bytes" Bytesize="4" RLECount="2" OffsetHex="00000FD8" DisplayMethod="unsigned integer"/>
+        <Element Offset="4064" Vartype="Pointer" Bytesize="8" OffsetHex="00000FE0" DisplayMethod="unsigned integer"/>
+        <Element Offset="4072" Vartype="Pointer" Bytesize="8" OffsetHex="00000FE8" Description="Pointer to instance of std::_Ref_count_obj2&lt;TamEngine::CComponentBase * __ptr64&gt;" DisplayMethod="unsigned integer"/>
+        <Element Offset="4080" Vartype="Pointer" Bytesize="8" RLECount="2" OffsetHex="00000FF0" DisplayMethod="unsigned integer"/>
       </Elements>
     </Structure>
   </Structures>

@@ -1,3 +1,5 @@
+devbuild 3 a1.2.2 Retrieve HUD player 2 pointer, it's incorecte pointers
+
 devbuild 3 a1.2 adding player 1 and 2 HUD konpaku pointer
 
 devbuild 2 a1.2 adding changelog, correcte english instruction mention of "will be innaccessible to the these tools." to correct "will be innaccessible to these tools.".
